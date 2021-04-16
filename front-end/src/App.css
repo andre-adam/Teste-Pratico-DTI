@@ -1,0 +1,118 @@
+.app {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  font-size: 1rem;
+}
+
+.title {
+  font-weight: 600;
+  padding: .5rem 1rem;
+}
+
+.content {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: max(50vw, 650px);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.search-input {
+  font-size: 1.15rem;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.add-action {
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.add-action:hover {
+  cursor: pointer;
+  opacity: .9;
+}
+
+.table {
+  margin: 5vh auto 0 auto;
+}
+
+.table thead tr th,
+.table tbody tr td {
+  padding: .5rem 1rem;
+}
+
+.table tbody tr:hover {
+  background-color: #484e58;
+}
+
+.table tbody .actions-cell {
+  display: flex;
+  justify-content: space-around;
+}
+
+.table tbody .actions-cell button {
+  background-color: transparent;
+  border: none;
+}
+
+.table tbody .actions-cell button:hover {
+  cursor: pointer;
+}
+
+.table tbody .actions-cell span {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.form {
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form .input-group label {
+  display: block;
+  /* flex-direction: column; */
+}
+
+.form .input-group:not(:first-of-type) {
+  margin-top: 15px;
+}
+
+.form .input-group input {
+  border: none;
+  padding: .25rem .5rem;
+  border-radius: 5px;
+}
+
+.actions-form {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.actions-form button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.actions-form button:hover {
+  cursor: pointer;
+  opacity: .9;
+}
